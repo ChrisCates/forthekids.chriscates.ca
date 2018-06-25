@@ -1,0 +1,17 @@
+<header>
+    <div class="header-section">
+        <h1>{{this.main.currentTitle}}</h1>
+        <a class="slide-button prev-slide easing" (click)="this.main.prevSlide()">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <a class="slide-button next-slide easing" (click)="this.main.nextSlide()">
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
+    <div class="header-section social">
+
+    </div>
+</header>
+<div id="container">
+    <router-outlet></router-outlet>
+</div>
